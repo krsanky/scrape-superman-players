@@ -7,7 +7,7 @@ fsk_url = "http://fsk405.com/news.php"
 root = parse(fsk_url).getroot()
 #print tostring(root)
 
-tables = root.cssselect('table')
+#tables = root.cssselect('table')
 
 #find the td 1st and then get its par
 tr = None # the <tr> that holds all of the good stuff
